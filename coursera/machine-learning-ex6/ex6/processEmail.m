@@ -98,28 +98,26 @@ while ~isempty(email_contents)
     %
 
 
-
-
-
-
-
-
-
+    for j = 1: length(vocabList)
+        if strcmp(str, vocabList{j})
+            word_indices = [word_indices; j];
+            break
+    end
 
     % =============================================================
 
 
     % Print to screen, ensuring that the output lines are not too long
     if (l + length(str) + 1) > 78
-        fprintf('\n');
+     %   fprintf('\n');
         l = 0;
     end
-    fprintf('%s ', str);
+    %fprintf('%s ', str);
     l = l + length(str) + 1;
 
 end
 
 % Print footer
-fprintf('\n\n=========================\n');
+%fprintf('\n\n=========================\n');
 
 end

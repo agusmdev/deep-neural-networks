@@ -40,7 +40,6 @@ for i = 1: size(C_train, 1)
     end
 end
 
-fprintf('sigma es %d y C es %d', sigma, C)
 
 
 % =========================================================================

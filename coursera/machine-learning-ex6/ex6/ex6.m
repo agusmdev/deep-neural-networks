@@ -97,7 +97,6 @@ fprintf('\nTraining SVM with RBF Kernel (this may take 1 to 2 minutes) ...\n');
 
 % Load from ex6data2: 
 % You will have X, y in your environment
-%{
 load('ex6data2.mat');
 
 % SVM Parameters
@@ -108,8 +107,6 @@ C = 1; sigma = 0.1;
 % convergence.
 model= svmTrain(X, y, C, @(x1, x2) gaussianKernel(x1, x2, sigma)); 
 visualizeBoundary(X, y, model);
-
-%}
 
 fprintf('Program paused. Press enter to continue.\n');
 pause;
