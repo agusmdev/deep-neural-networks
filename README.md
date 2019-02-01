@@ -1,6 +1,5 @@
-### Learning neural networks
+### Deep neural networks and machine learning
 
-I will use this repo to my own learn and practice about deep learning, using python and tensorflow
-
-### Coursera folder
-Inside this folder I will save my progress in the machine-learning course
+* Flower Classifier: Convolutional neural network trained at Google Colab
+* Written text recognition: Machine learning algorithm
+* Trafic sign classifier: Neural network trafic signals classifier
